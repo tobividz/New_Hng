@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size:160px;
+}
+
+
+body{background-color: rgba(48, 29, 48, 0.95);
+}
+#aa {color:white}
+
+</style>
+
+<title>Figma design</title>
+<body>
+
+
+
+
+<h2 id=aa class="topright">Thank you mentors of HNG_Internship 4</h2>
+
+
+<h2 id=aa class="topleft"> Remote intern at Hng-Internship 4</h2>
+
+
+
+<h3 id=aa class="bottomleft">  In Lagos it is  <h3>
+
+
+
+<h1 id=aa class="center" > 
+<?php 
+date_default_timezone_set('Africa/Lagos');
+echo date (' h:i a'); 
+?>.
+<h1>
+
+
+
+
+
+
+</body>
+</html>
